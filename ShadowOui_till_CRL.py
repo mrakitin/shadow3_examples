@@ -47,6 +47,7 @@ oe0.IDO_VZ = 0
 oe0.IDO_X_S = 0
 oe0.IDO_Y_S = 0
 oe0.IDO_Z_S = 0
+oe0.ISTAR1 = 567656
 oe0.NPOINT = 1000000
 oe0.PH1 = 8000.0
 oe0.SIGDIX = 2.3e-05

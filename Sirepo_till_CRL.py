@@ -424,4 +424,4 @@ beam.write('shadow-output.dat')
 
 import Shadow.ShadowTools
 
-Shadow.ShadowTools.plotxy(beam, 1, 3, nbins=100, nolost=1)
+Shadow.ShadowTools.plotxy(beam, 1, 3, nbins=101, nolost=1)

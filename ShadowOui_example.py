@@ -36,8 +36,8 @@ oe21 = Shadow.OE()
 oe22 = Shadow.OE()
 
 #
-# Define variables. See meaning of variables in: 
-#  https://raw.githubusercontent.com/srio/shadow3/master/docs/source.nml 
+# Define variables. See meaning of variables in:
+#  https://raw.githubusercontent.com/srio/shadow3/master/docs/source.nml
 #  https://raw.githubusercontent.com/srio/shadow3/master/docs/oe.nml
 #
 
@@ -50,6 +50,7 @@ oe0.IDO_VZ = 0
 oe0.IDO_X_S = 0
 oe0.IDO_Y_S = 0
 oe0.IDO_Z_S = 0
+oe0.ISTAR1 = 567656
 oe0.NPOINT = 1000000
 oe0.PH1 = 8000.0
 oe0.SIGDIX = 2.3e-05
@@ -455,9 +456,7 @@ oe22.T_INCIDENCE = 89.79373519375291
 oe22.T_REFLECTION = 89.79373519375291
 oe22.T_SOURCE = 25.0
 
-
-
-#Run SHADOW to create the source
+# Run SHADOW to create the source
 
 if iwrite:
     oe0.write("start.00")
@@ -468,272 +467,248 @@ if iwrite:
     oe0.write("end.00")
     beam.write("begin.dat")
 
-
 #
-#run optical element 1
+# run optical element 1
 #
-print("    Running optical element: %d"%(1))
+print("    Running optical element: %d" % (1))
 if iwrite:
     oe1.write("start.01")
-beam.traceOE(oe1,1)
+beam.traceOE(oe1, 1)
 if iwrite:
     oe1.write("end.01")
     beam.write("star.01")
 
-
 #
-#run optical element 2
+# run optical element 2
 #
-print("    Running optical element: %d"%(2))
+print("    Running optical element: %d" % (2))
 if iwrite:
     oe2.write("start.02")
-beam.traceOE(oe2,2)
+beam.traceOE(oe2, 2)
 if iwrite:
     oe2.write("end.02")
     beam.write("star.02")
 
-
 #
-#run optical element 3
+# run optical element 3
 #
-print("    Running optical element: %d"%(3))
+print("    Running optical element: %d" % (3))
 if iwrite:
     oe3.write("start.03")
-beam.traceOE(oe3,3)
+beam.traceOE(oe3, 3)
 if iwrite:
     oe3.write("end.03")
     beam.write("star.03")
 
-
 #
-#run optical element 4
+# run optical element 4
 #
-print("    Running optical element: %d"%(4))
+print("    Running optical element: %d" % (4))
 if iwrite:
     oe4.write("start.04")
-beam.traceOE(oe4,4)
+beam.traceOE(oe4, 4)
 if iwrite:
     oe4.write("end.04")
     beam.write("star.04")
 
-
 #
-#run optical element 5
+# run optical element 5
 #
-print("    Running optical element: %d"%(5))
+print("    Running optical element: %d" % (5))
 if iwrite:
     oe5.write("start.05")
-beam.traceOE(oe5,5)
+beam.traceOE(oe5, 5)
 if iwrite:
     oe5.write("end.05")
     beam.write("star.05")
 
-
 #
-#run optical element 6
+# run optical element 6
 #
-print("    Running optical element: %d"%(6))
+print("    Running optical element: %d" % (6))
 if iwrite:
     oe6.write("start.06")
-beam.traceOE(oe6,6)
+beam.traceOE(oe6, 6)
 if iwrite:
     oe6.write("end.06")
     beam.write("star.06")
 
-
 #
-#run optical element 7
+# run optical element 7
 #
-print("    Running optical element: %d"%(7))
+print("    Running optical element: %d" % (7))
 if iwrite:
     oe7.write("start.07")
-beam.traceOE(oe7,7)
+beam.traceOE(oe7, 7)
 if iwrite:
     oe7.write("end.07")
     beam.write("star.07")
 
-
 #
-#run optical element 8
+# run optical element 8
 #
-print("    Running optical element: %d"%(8))
+print("    Running optical element: %d" % (8))
 if iwrite:
     oe8.write("start.08")
-beam.traceOE(oe8,8)
+beam.traceOE(oe8, 8)
 if iwrite:
     oe8.write("end.08")
     beam.write("star.08")
 
-
 #
-#run optical element 9
+# run optical element 9
 #
-print("    Running optical element: %d"%(9))
+print("    Running optical element: %d" % (9))
 if iwrite:
     oe9.write("start.09")
-beam.traceOE(oe9,9)
+beam.traceOE(oe9, 9)
 if iwrite:
     oe9.write("end.09")
     beam.write("star.09")
 
-
 #
-#run optical element 10
+# run optical element 10
 #
-print("    Running optical element: %d"%(10))
+print("    Running optical element: %d" % (10))
 if iwrite:
     oe10.write("start.10")
-beam.traceOE(oe10,10)
+beam.traceOE(oe10, 10)
 if iwrite:
     oe10.write("end.10")
     beam.write("star.10")
 
-
 #
-#run optical element 11
+# run optical element 11
 #
-print("    Running optical element: %d"%(11))
+print("    Running optical element: %d" % (11))
 if iwrite:
     oe11.write("start.11")
-beam.traceOE(oe11,11)
+beam.traceOE(oe11, 11)
 if iwrite:
     oe11.write("end.11")
     beam.write("star.11")
 
-
 #
-#run optical element 12
+# run optical element 12
 #
-print("    Running optical element: %d"%(12))
+print("    Running optical element: %d" % (12))
 if iwrite:
     oe12.write("start.12")
-beam.traceOE(oe12,12)
+beam.traceOE(oe12, 12)
 if iwrite:
     oe12.write("end.12")
     beam.write("star.12")
 
-
 #
-#run optical element 13
+# run optical element 13
 #
-print("    Running optical element: %d"%(13))
+print("    Running optical element: %d" % (13))
 if iwrite:
     oe13.write("start.13")
-beam.traceOE(oe13,13)
+beam.traceOE(oe13, 13)
 if iwrite:
     oe13.write("end.13")
     beam.write("star.13")
 
-
 #
-#run optical element 14
+# run optical element 14
 #
-print("    Running optical element: %d"%(14))
+print("    Running optical element: %d" % (14))
 if iwrite:
     oe14.write("start.14")
-beam.traceOE(oe14,14)
+beam.traceOE(oe14, 14)
 if iwrite:
     oe14.write("end.14")
     beam.write("star.14")
 
-
 #
-#run optical element 15
+# run optical element 15
 #
-print("    Running optical element: %d"%(15))
+print("    Running optical element: %d" % (15))
 if iwrite:
     oe15.write("start.15")
-beam.traceOE(oe15,15)
+beam.traceOE(oe15, 15)
 if iwrite:
     oe15.write("end.15")
     beam.write("star.15")
 
-
 #
-#run optical element 16
+# run optical element 16
 #
-print("    Running optical element: %d"%(16))
+print("    Running optical element: %d" % (16))
 if iwrite:
     oe16.write("start.16")
-beam.traceOE(oe16,16)
+beam.traceOE(oe16, 16)
 if iwrite:
     oe16.write("end.16")
     beam.write("star.16")
 
-
 #
-#run optical element 17
+# run optical element 17
 #
-print("    Running optical element: %d"%(17))
+print("    Running optical element: %d" % (17))
 if iwrite:
     oe17.write("start.17")
-beam.traceOE(oe17,17)
+beam.traceOE(oe17, 17)
 if iwrite:
     oe17.write("end.17")
     beam.write("star.17")
 
-
 #
-#run optical element 18
+# run optical element 18
 #
-print("    Running optical element: %d"%(18))
+print("    Running optical element: %d" % (18))
 if iwrite:
     oe18.write("start.18")
-beam.traceOE(oe18,18)
+beam.traceOE(oe18, 18)
 if iwrite:
     oe18.write("end.18")
     beam.write("star.18")
 
-
 #
-#run optical element 19
+# run optical element 19
 #
-print("    Running optical element: %d"%(19))
+print("    Running optical element: %d" % (19))
 if iwrite:
     oe19.write("start.19")
-beam.traceOE(oe19,19)
+beam.traceOE(oe19, 19)
 if iwrite:
     oe19.write("end.19")
     beam.write("star.19")
 
-
 #
-#run optical element 20
+# run optical element 20
 #
-print("    Running optical element: %d"%(20))
+print("    Running optical element: %d" % (20))
 if iwrite:
     oe20.write("start.20")
-beam.traceOE(oe20,20)
+beam.traceOE(oe20, 20)
 if iwrite:
     oe20.write("end.20")
     beam.write("star.20")
 
-
 #
-#run optical element 21
+# run optical element 21
 #
-print("    Running optical element: %d"%(21))
+print("    Running optical element: %d" % (21))
 if iwrite:
     oe21.write("start.21")
-beam.traceOE(oe21,21)
+beam.traceOE(oe21, 21)
 if iwrite:
     oe21.write("end.21")
     beam.write("star.21")
 
-
 #
-#run optical element 22
+# run optical element 22
 #
-print("    Running optical element: %d"%(22))
+print("    Running optical element: %d" % (22))
 if iwrite:
     oe22.write("start.22")
-beam.traceOE(oe22,22)
+beam.traceOE(oe22, 22)
 if iwrite:
     oe22.write("end.22")
     beam.write("star.22")
 
-
-Shadow.ShadowTools.plotxy(beam,1,3,nbins=101,nolost=1,title="Real space")
+Shadow.ShadowTools.plotxy(beam, 1, 3, nbins=101, nolost=1, title="Real space")
 # Shadow.ShadowTools.plotxy(beam,1,4,nbins=101,nolost=1,title="Phase space X")
 # Shadow.ShadowTools.plotxy(beam,3,6,nbins=101,nolost=1,title="Phase space Z")
-    
