@@ -7,7 +7,7 @@
 		<node id="3" name="Undulator Power Density" position="(335.0, 66.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_power_density.OWundulator_power_density" title="Undulator Power Density" version="" />
 		<node id="4" name="Undulator Radiation" position="(479.0, 70.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" title="Undulator Radiation" version="" />
 		<node id="5" name="Undulator Gaussian" position="(622.0, 70.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_undulator_gaussian.UndulatorGaussian" title="Undulator Gaussian" version="" />
-		<node id="6" name="Geometrical Source" position="(214.0, 268.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_geometrical_source.GeometricalSource" title="Geometrical Source" version="" />
+		<node id="6" name="Geometrical Source" position="(213.0, 268.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_geometrical_source.GeometricalSource" title="Geometrical Source" version="" />
 		<node id="7" name="Compound Refractive Lens" position="(696.0, 279.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.compound_optical_elements.ow_crl.CRL" title="Compound Refractive Lens" version="" />
 		<node id="8" name="FocNew" position="(1028.0, 702.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_focnew.FocNew" title="FocNew" version="" />
 		<node id="9" name="Screen-Slits" position="(935.0, 278.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="SSA" version="" />
@@ -408,12 +408,12 @@ Z2VfcGxhbmVfbmV3X3Bvc2l0aW9ucQNHwHyf1wo9cKRYHAAAAGltYWdlX3BsYW5lX3JlbF9hYnNf
 cG9zaXRpb25xBEsBWBAAAABpc19hdXRvbWF0aWNfcnVucQWIWBQAAABpc19jb252ZXJzaW9uX2Fj
 dGl2ZXEGSwFYCwAAAGtlZXBfcmVzdWx0cQdLAFgOAAAAbnVtYmVyX29mX2JpbnNxCEtLWAQAAABy
 YXlzcQlLAVgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEKY3NpcApfdW5waWNrbGVfdHlwZQpxC1gM
-AAAAUHlRdDUuUXRDb3JlcQxYCgAAAFFCeXRlQXJyYXlxDUMyAdnQywACAAAAAABmAAAAOgAABY0A
-AAL1AAAAZgAAADoAAAWNAAAC9QAAAAAAAAAACABxDoVxD4dxEFJxEVgFAAAAdGl0bGVxElgFAAAA
+AAAAUHlRdDUuUXRDb3JlcQxYCgAAAFFCeXRlQXJyYXlxDUMyAdnQywACAAAAAAT1AAABlAAAChwA
+AARPAAAE9QAAAZQAAAocAAAETwAAAAAAAAAAHHBxDoVxD4dxEFJxEVgFAAAAdGl0bGVxElgFAAAA
 IFgsIFpxE1gTAAAAd2VpZ2h0X2NvbHVtbl9pbmRleHEUSxdYDgAAAHhfY29sdW1uX2luZGV4cRVL
-AFgHAAAAeF9yYW5nZXEWSwFYCwAAAHhfcmFuZ2VfbWF4cRdHP+AAAAAAAABYCwAAAHhfcmFuZ2Vf
-bWlucRhHv+AAAAAAAABYDgAAAHlfY29sdW1uX2luZGV4cRlLAlgHAAAAeV9yYW5nZXEaSwFYCwAA
-AHlfcmFuZ2VfbWF4cRtHP+AAAAAAAABYCwAAAHlfcmFuZ2VfbWlucRxHv+AAAAAAAAB1Lg==
+AFgHAAAAeF9yYW5nZXEWSwFYCwAAAHhfcmFuZ2VfbWF4cRdHP8MzMzMzMzNYCwAAAHhfcmFuZ2Vf
+bWlucRhHv8MzMzMzMzNYDgAAAHlfY29sdW1uX2luZGV4cRlLAlgHAAAAeV9yYW5nZXEaSwFYCwAA
+AHlfcmFuZ2VfbWF4cRtHP7wo9cKPXClYCwAAAHlfcmFuZ2VfbWlucRxHv7wo9cKPXCl1Lg==
 </properties>
 		<properties format="pickle" node_id="12">gAN9cQAoWAoAAABkaW1lbnNpb25zcQFdcQIoXXEDKEc/8AAAAAAAAEdASQAAAAAAAGVdcQQoRz/w
 AAAAAAAAR0BJAAAAAAAAZWVYEQAAAGZpbGVfdG9fd3JpdGVfb3V0cQVLA1gRAAAAZm9jYWxfcG9z
